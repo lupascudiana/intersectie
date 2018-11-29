@@ -2,7 +2,7 @@
 #include "hal_motor.h" 
 #include "mcal_timers.h"
 #include "sys_schedule.h"
-
+#include "hal_servo.h"
 
 int main()
 {
