@@ -23,6 +23,7 @@ void TASK_Inits()
     MCAL_vInit();
     GPIO_u8SetPortPin(PORT_A, 10, DIGITAL, OUTPUT);	
  	vMotorInit();
+    ADC_vInit();
 }
 
 void TASK_1ms()
@@ -52,6 +53,7 @@ void TASK_500ms()
 
 void TASK_1000ms()
 {
+    /*
 	vSetMotorDir(INAINTE);
 	vSetMotorSpeed(50);
 	counter++;
@@ -67,4 +69,5 @@ void TASK_1000ms()
 	{
 		counter=0;
 	}
+    */
 }
